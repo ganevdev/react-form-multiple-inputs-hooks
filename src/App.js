@@ -2,14 +2,10 @@ import './App.css';
 
 import React from 'react';
 
+import CountriesContainer from './components/CountriesContainer';
+
 const App = () => {
-  return (
-    <div className="App">
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-    </div>
-  );
+  return <CountriesContainer />;
 };
 
 export default App;

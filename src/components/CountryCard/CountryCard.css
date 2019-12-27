@@ -1,0 +1,44 @@
+.country-card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid rgba(158, 158, 158, 0.5);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.55);
+  background: #ddd;
+  margin: 1rem;
+  padding: 0 1rem;
+  border-radius: 4px;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.country-card:hover {
+  transform: scale(1.05);
+}
+
+.country-info-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.country-info-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 35px;
+}
+
+.country-info-item h4,
+.country-info-item p {
+  margin: 0;
+}
+
+.country-info-item p {
+  padding: 0 0.5rem;
+}
+
+.country-flag {
+  width: 100px;
+  height: auto;
+}
